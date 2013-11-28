@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="show_status_bar_icon_title">아이콘 표시</string>
+    <string name="show_status_bar_icon_summary">알람이 설정되어 있을시 상태바에 아이콘 표시</string>
     <string name="abbrev_wday_month_day_no_year">EEEMMMMd</string>
     <string name="full_wday_month_day_no_year">EEEEMMMMd</string>
     <string name="default_clock_style">디지털</string>
@@ -45,8 +47,6 @@
     <string name="analog_gadget">아날로그 시계</string>
     <string name="help">도움말</string>
     <string name="settings">설정</string>
-    <string name="show_status_bar_icon_title">아이콘 표시</string>
-    <string name="show_status_bar_icon_summary">알람이 설정되어 있을시 상태바에 아이콘 표시</string>
     <string name="snooze_duration_title">알람 일시중지 간격</string>
     <string name="auto_silence_title">알람 해제 시간</string>
     <string name="auto_silence_summary">%d분</string>

@@ -55,6 +55,14 @@
     <string name="navbar_menu_conditional_button">메뉴 (자동숨기기) 버튼</string>
     <string name="navbar_menu_always_button">메뉴 (항상표시) 버튼</string>
     <string name="navbar_menu_big_button">메뉴 버튼</string>
+	<string name="pie_battery_status_charging">충전중 (%d%%)</string>
+    <string name="pie_battery_status_full">충전됨</string>
+    <string name="pie_battery_status_discharging">%d%% 남음</string>
+    <string name="pie_phone_status_no_service">서비스 없음</string>
+    <string name="pie_phone_status_airplane_mode">비행기 모드 사용</string>
+    <string name="pie_phone_status_emergency_only">긴급 통화 전용</string>
+    <string name="advanced_dev_option_wipe_app">앱 데이터 지우기</string>
+    <string name="advanced_dev_option_force_stop">강제 중지</string>
     <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
     <string name="system_ui_date_pattern">MMMMd</string>
     <string name="system_ui_weekday_pattern">eeee</string>

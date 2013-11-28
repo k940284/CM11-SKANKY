@@ -31,6 +31,8 @@
     <string name="blacklist_notification_unknown_number">알 수없는 번호 %s를 차단</string>
     <string name="blacklist_notification_multiple">%d개 전화가 차단되었습니다</string>
     <string name="unblock_number">차단 해제</string>
+	<string name="mwi_notification_title">메시지 대기 표시</string>
+    <string name="mwi_notification_summary">메시지 대기 표시등 음성 메일 알림 보기</string>
     <string name="ui_default_package">com.android.dialer</string>
     <string name="incall_default_class">com.android.incallui.CallHandlerService</string>
     <string name="dialer_default_class">com.android.dialer.DialtactsActivity</string>
