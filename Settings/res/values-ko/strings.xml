@@ -68,10 +68,7 @@
     <string name="installing">설치</string>
     <string name="installing_superuser">슈퍼유저 설치중...</string>
     <string name="install_superuser">슈퍼유저 설치</string>
-    <string name="install_superuser_info">"슈퍼유저 바이너리(su)를 업데이트 해야합니다.
-
-설치 방법을 선택하세요.
-리커버리 설치는 HTC 장치를 사용하는 것이 좋습니다."</string>
+    <string name="install_superuser_info">"슈퍼유저 바이너리(su)를 업데이트 해야합니다. 설치 방법을 선택하세요. 리커버리 설치는 HTC 장치를 사용하는 것이 좋습니다."</string>
     <string name="recovery_install">리커버리 설치</string>
     <string name="install">설치</string>
     <string name="checking_superuser">슈퍼유저 확인중...</string>
@@ -610,14 +607,8 @@
     <string name="backlight_summary_enabled">사용함</string>
     <string name="navigation_bar_category">네비게이션 바</string>
     <string name="navigation_bar_title">버튼 및 레이아웃</string>
-    <string name="navigation_bar_help_text">"1 - 편집 시작하려면 자물쇠 아이콘을 누르세요
-2 - 기능을 할당하거나 변경하려면 해당 버튼을 누르세요
-3 - 순서를 다시 정렬하려면 해당 버튼을 길게 누르세요
-4 - 저장하려면 다시 자물쇠 아이콘을 누르세요
-5 - 시스템 기본값을 복원하려면 초기화 버튼을 누르세요"</string>
-    <string name="navigation_bar_tips">"• 작업은 한 번에 하나의 버튼에 할당할수 있습니다
-• 홈 버튼은 재 할당할수 없습니다
-• 사이드 버튼은 재 배열할수 없습니다"</string>
+    <string name="navigation_bar_help_text">"1 - 편집 시작하려면 자물쇠 아이콘을 누르세요\n2 - 기능을 할당하거나 변경하려면 해당 버튼을 누르세요\n3 - 순서를 다시 정렬하려면 해당 버튼을 길게 누르세요\n4 - 저장하려면 다시 자물쇠 아이콘을 누르세요\n5 - 시스템 기본값을 복원하려면 초기화 버튼을 누르세요"</string>
+    <string name="navigation_bar_tips">"• 작업은 한 번에 하나의 버튼에 할당할수 있습니다\n• 홈 버튼은 재 할당할수 없습니다\n• 사이드 버튼은 재 배열할수 없습니다"</string>
     <string name="navigation_bar_tips_title">빠른 팁</string>
     <string name="navigation_bar_reset_message">현재 설정을 삭제하고 기본값으로 복원하시겠습니까?</string>
     <string name="navigation_bar_save_message">내비게이션 바 설정이 저장되었습니다</string>
@@ -638,6 +629,8 @@
     <string name="navring_action_torch">손전등</string>
     <string name="navring_action_google_now">구글나우(Google Now)</string>
     <string name="navring_choose_action_title">동작 선택</string>
+	<string name="development_shortcut_title">개발 바로 가기</string>
+    <string name="development_shortcut_summary">"'Wipe data' 활성화 및 알림 영역과 최근 사용 애플리케이션 목록 옵션 '강제로 닫기'"</string>
 	<string name="additional_system_update" />
     <string name="additional_system_update_menu" />
     <string name="max_cpu_freq_file">/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq</string>
