@@ -634,6 +634,10 @@
 	<string name="development_shortcut_title">개발 바로 가기</string>
     <string name="development_shortcut_summary">"'Wipe data' 활성화 및 알림 영역과 최근 사용 애플리케이션 목록 옵션 '강제로 닫기'"</string>
 	<string name="edge_gesture_service">가장자리 제스처 서비스 사용</string>
+	<string name="volume_key_cursor_control_title">커서 제어</string>
+    <string name="volume_key_cursor_control_off">사용 안함</string>
+    <string name="volume_key_cursor_control_on">위/아래 볼륨 버튼으로 커서 왼쪽/오른쪽 조작</string>
+    <string name="volume_key_cursor_control_on_reverse">위/아래 볼륨 버튼으로 커서 오른쪽/왼쪽 조작</string>
 	<string name="additional_system_update" />
     <string name="additional_system_update_menu" />
     <string name="max_cpu_freq_file">/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq</string>

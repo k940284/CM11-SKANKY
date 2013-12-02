@@ -19,6 +19,15 @@
     <string name="cities_delete_city_title">도시 삭제</string>
     <string name="cities_delete_city_msg">%s를 삭제 하시겠습니까?</string>
     <string name="cities_delete_city_failed">도시를 삭제할수 없습니다</string>
+	<string name="flip_action_title">뒤집을시 동작</string>
+    <string name="flip_action_dialog_title">장치를 뒤집으면…</string>
+    <string name="flip_action_summary">휴대 전화를 아래로 뒤집을시 %s 됩니다</string>
+    <string name="shake_action_title">흔들시 동작</string>
+    <string name="shake_action_dialog_title">장치를 흔들시…</string>
+    <string name="shake_action_summary">휴대 전화를 흔들시 뒤집을시 %s 됩니다</string>
+    <string name="action_summary_do_nothing">아무것도 안함</string>
+    <string name="action_summary_snooze">알람 일시정지</string>
+    <string name="action_summary_dismiss">알람 취소</string>
     <string name="abbrev_wday_month_day_no_year">EEEMMMMd</string>
     <string name="full_wday_month_day_no_year">EEEEMMMMd</string>
     <string name="default_clock_style">디지털</string>
