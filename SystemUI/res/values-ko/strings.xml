@@ -198,6 +198,7 @@
     <string name="accessibility_quick_settings_battery">배터리 %s</string>
     <string name="accessibility_quick_settings_airplane">비행기 모드가 %s 상태입니다.</string>
     <string name="accessibility_quick_settings_bluetooth">블루투스 %s</string>
+	<string name="accessibility_quick_settings_location">위치 %s.</string>
     <string name="accessibility_quick_settings_alarm">알람이 %s(으)로 설정되었습니다.</string>
     <string name="data_usage_disabled_dialog_3g_title">2G-3G 데이터 사용중지됨</string>
     <string name="data_usage_disabled_dialog_4g_title">4G 데이터 사용중지됨</string>
@@ -240,8 +241,7 @@
     <string name="quick_settings_wifi_not_connected">연결되어 있지 않음</string>
     <string name="quick_settings_wifi_no_network">네트워크가 연결되지 않음</string>
     <string name="quick_settings_wifi_off_label">Wi-Fi 꺼짐</string>
-    <string name="quick_settings_wifi_display_label">Wi-Fi 디스플레이</string>
-    <string name="quick_settings_wifi_display_no_connection_label">무선 디스플레이</string>
+	<string name="quick_settings_remote_display_no_connection_label">캐스트 화면</string>
     <string name="quick_settings_brightness_dialog_title">밝기</string>
     <string name="quick_settings_brightness_dialog_auto_brightness_label">자동</string>
     <string name="battery_meter_very_low_overlay_symbol">!</string>
