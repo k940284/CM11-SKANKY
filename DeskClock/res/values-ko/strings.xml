@@ -2,7 +2,7 @@
 <resources>
     <string name="show_status_bar_icon_title">아이콘 표시</string>
     <string name="show_status_bar_icon_summary">알람이 설정되어 있을시 상태바에 아이콘 표시</string>
-	<string name="alarm_increasing_volume">볼륨 점점 크게</string>
+    <string name="alarm_increasing_volume">볼륨 점점 크게</string>
     <string name="profile_description">프로필 %s</string>
     <string name="profile_no_selected">선택된 프로필이 없습니다</string>
     <string name="menu_item_add">추가</string>
@@ -19,7 +19,7 @@
     <string name="cities_delete_city_title">도시 삭제</string>
     <string name="cities_delete_city_msg">%s를 삭제 하시겠습니까?</string>
     <string name="cities_delete_city_failed">도시를 삭제할수 없습니다</string>
-	<string name="flip_action_title">뒤집을시 동작</string>
+    <string name="flip_action_title">뒤집을시 동작</string>
     <string name="flip_action_dialog_title">장치를 뒤집으면…</string>
     <string name="flip_action_summary">휴대 전화를 아래로 뒤집을시 %s 됩니다</string>
     <string name="shake_action_title">흔들시 동작</string>
@@ -56,7 +56,6 @@
     <string name="alarm_missed_title">부재중 알람</string>
     <string name="alarm_missed_text" formatted="false">%s - %s</string>
     <string name="alarm_alert_snooze_text">다시 울림</string>
-    <string name="alarm_alert_snooze_set">%d분 동안 알람 일시 중지</string>
     <string name="alarm_alert_snooze_until">%s까지 일시 중지</string>
     <string name="alarm_alert_predismiss_title">예정된 알람</string>
     <string name="missed_alarm_has_been_deleted">부재중 알람이 삭제되었습니다.</string>
@@ -189,10 +188,10 @@
     <string name="digital_gadget">디지털 시계</string>
     <string name="clock_24_hours_format">kk:mm</string>
     <string name="main_widget_12_hours_format">h:mm</string>
-    <string name="wc_widget_12_hours_format">h:mm <font size="14" face="sans-serif-condensed"><b>a</b></font></string>
-    <string name="main_clock_12_hours_format">h:mm <font size="16" face="sans-serif-condensed"><b>a</b></font></string>
-    <string name="world_clock_12_hours_format">h:mm <font size="14" face="sans-serif-condensed"><b>a</b></font></string>
-    <string name="alarm_time_12_hours_format">h:mm <font size="14" face="sans-serif-condensed"><b>a</b></font></string>
+    <string name="wc_widget_12_hours_format">h:mm <b><font size="14" face="sans-serif-condensed">a</font></b></string>
+    <string name="main_clock_12_hours_format">h:mm <b><font size="16" face="sans-serif-condensed">a</font></b></string>
+    <string name="world_clock_12_hours_format">h:mm <b><font size="14" face="sans-serif-condensed">a</font></b></string>
+    <string name="alarm_time_12_hours_format">h:mm <b><font size="14" face="sans-serif-condensed">a</font></b></string>
     <string name="no_alarms">알람 없음</string>
     <string name="no_upcoming_alarms">예정된 알람 없음</string>
     <item type="string" name="circle_radius_multiplier">0.82</item>
