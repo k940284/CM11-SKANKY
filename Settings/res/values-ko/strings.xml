@@ -68,10 +68,7 @@
     <string name="installing">설치</string>
     <string name="installing_superuser">슈퍼유저 설치중...</string>
     <string name="install_superuser">슈퍼유저 설치</string>
-    <string name="install_superuser_info">"슈퍼유저 바이너리(su)를 업데이트 해야합니다.
-
-설치 방법을 선택하세요.
-리커버리 설치는 HTC 장치를 사용하는 것이 좋습니다."</string>
+    <string name="install_superuser_info">슈퍼유저 바이너리(su)를 업데이트 해야합니다. 설치 방법을 선택하세요. 리커버리 설치는 HTC 장치를 사용하는 것이 좋습니다.</string>
     <string name="recovery_install">리커버리 설치</string>
     <string name="install">설치</string>
     <string name="checking_superuser">슈퍼유저 확인중...</string>
@@ -90,6 +87,9 @@
     <string name="dark">다크</string>
     <string name="pin_disabled">수퍼 유저 PIN 보호 해제</string>
     <string name="ga_trackingId">UA-39737599-1</string>
+	<string name="wifi_setting_countrycode_title">Wi-Fi 국가 코드</string>
+    <string name="wifi_setting_countrycode_summary">Wi-Fi의 국가 코드 지정</string>
+    <string name="wifi_setting_countrycode_error">국가 코드를 설정하는 동안 문제가 발생했습니다.</string>
     <string name="ring_mode_title">벨소리 모드</string>
     <string name="ring_mode_normal">보통</string>
     <string name="ring_mode_vibrate">진동</string>
@@ -208,8 +208,10 @@
     <string name="notification_light_default_value">기본값</string>
     <string name="notification_light_missed_call_title">부재중 전화</string>
     <string name="notification_light_voicemail_title">음성메일</string>
-	<string name="adaptive_backlight_title">적응형 백라이트</string>
+    <string name="adaptive_backlight_title">적응형 백라이트</string>
     <string name="adaptive_backlight_summary">지능적으로 디스플레이의 백라이트의 밝기를 변화하고 배터리 수명을 극대화</string>
+    <string name="wake_when_plugged_or_unplugged_title">충전기 웨이크</string>
+    <string name="wake_when_plugged_or_unplugged_summary">충전기를 연결하거나 분리할때 화면 켜기</string>
     <string name="edit_light_settings">알림등 설정 변경</string>
     <string name="pulse_speed_title">반복 길이와 속도</string>
     <string name="default_time">보통</string>
@@ -240,8 +242,6 @@
     <string name="lockscreen_widgets_category_title">위젯</string>
     <string name="lockscreen_maximize_widgets_title">위젯 최대화</string>
     <string name="lockscreen_maximize_widgets_summary">화면이 켜졌을 때 위젯은 최대화하고 잠금 해제 구역은 최소화</string>
-    <string name="lockscreen_enable_widgets_title">위젯 호출기</string>
-    <string name="lockscreen_enable_widgets_summary">여러 위젯 페이지를 추가하고 선택할 수 있도록 허용</string>
     <string name="safe_headset_volume_title">청력 손상 방지</string>
     <string name="cyanogenmod_waiver_title">면책 사항</string>
     <string name="cyanogenmod_waiver_body">"이 설정을 변경하는 것은 법에 저촉될 수 있습니다. 아래 '확인'을 선택하면 귀하는 이 경고와 면책 사항을 모두 이해하였으며 CyanogenMod와 그 기여자들에게 어떠한 법적 책임도 묻지 않는 것에 동의한 것으로 간주됩니다."</string>
@@ -338,6 +338,15 @@
     <string name="auto_brightness_sensitivity_medium">보통</string>
     <string name="auto_brightness_sensitivity_high">높음</string>
     <string name="auto_brightness_sensitivity_veryhigh">매우 높음</string>
+	<string name="display_rotation_title">회전</string>
+    <string name="display_rotation_disabled">사용 안함</string>
+    <string name="display_rotation_unit">도</string>
+    <string name="display_lockscreen_rotation_title">잠금 화면 회전</string>
+    <string name="display_rotation_category_title">회전 모드</string>
+    <string name="display_rotation_0_title">0도</string>
+    <string name="display_rotation_90_title">90도</string>
+    <string name="display_rotation_180_title">180도</string>
+    <string name="display_rotation_270_title">270도</string>
     <string name="advanced_reboot_title">다시 시작 메뉴 확장</string>
     <string name="advanced_reboot_summary">전원 메뉴의 다시 시작 항목에 복구 모드와 부트로더로 진입할 수 있는 옵션을 추가</string>
     <string name="app_security_title">애플리케이션 보안</string>
@@ -388,7 +397,7 @@
     <string name="performance_settings_title">성능</string>
     <string name="performance_settings_warning_title">주의 사항</string>
     <string name="performance_settings_warning">이 설정들은 실험적인 것들이며 변경 시 불안정, 충돌, 데이터 손실 또는 하드웨어 고장이 발생할 수 있습니다. 이 설정들을 변경하였을 경우에는 버그 리포트를 사용하지 말아주시기 바랍니다.</string>
-	<string name="performance_set_on_boot">부팅시 설정</string>
+    <string name="performance_set_on_boot">부팅시 설정</string>
     <string name="performance_set_on_boot_summary">부팅 설정을 복원</string>
     <string name="processor_title">프로세서</string>
     <string name="cpu_cur_freq_title">현재 CPU 주파수</string>
@@ -401,7 +410,7 @@
     <string name="io_scheds_title">I/O 스케줄러</string>
     <string name="io_sched_title">I/O 스케줄러</string>
     <string name="io_sched_summary">%S</string>
-	<string name="perf_profile_title">프로필</string>
+    <string name="perf_profile_title">프로필</string>
     <string name="perf_profile_summary">%s</string>
     <string name="memory_management_title">메모리 관리</string>
     <string name="pref_zram_title">zRam</string>
@@ -438,7 +447,7 @@
     <string name="privacy_guard_help_text">이 화면에서는 앱 프라이버시 가드를 단순히 그눌러서 활성화를 선택하실수 있습니다. 선택한 앱이 연락처, 메시지 또는 통화 기록과 같은 개인 데이터에 액세스할수 없습니다. 항목을 길게 누르면 해당 앱에 대한 앱 세부 정보 화면을 엽니다. 기본적으로 내장된 앱은 표시되지 않습니다. 해당 권한에 따라 개인 데이터에 대한 액세스를 요청하는 경우에만 표시 또는 필터 앱을 표시하려면 메뉴에서 해당 옵션을 선택합니다.</string>
     <string name="privacy_guard_manager_show_system_apps">내장 된 앱을 표시</string>
     <string name="privacy_guard_manager_filter_permissions">권한 필터</string>
-	<string name="privacy_guard_advanced_settings_title">고급</string>
+    <string name="privacy_guard_advanced_settings_title">고급</string>
     <string name="blacklist_title">차단 목록</string>
     <string name="blacklist_edit_dialog_title">차단 목록 항목 편집</string>
     <string name="blacklist_prefs">설정</string>
@@ -506,10 +515,12 @@
     <string name="title_quick_access_linked">연결된 레이아웃</string>
     <string name="summary_quick_access_linked">빠른 설정 패널과 동일한 타일과 레이아웃을 사용</string>
     <string name="font_size_sample">샘플</string>
-	<string name="sms_security_check_limit_title">SMS 메시지 발신 제한</string>
+    <string name="sms_security_check_limit_title">SMS 메시지 발신 제한</string>
     <string name="sms_security_check_limit_summary">애플리케이션이 30분 안에 %d개 이상의 메시지를 발송하려고 시도하면 사용자에게 알림</string>
     <string name="sms_security_check_limit_default">30 (기본값)</string>
-	<string name="power_notifications_category_title">충전음</string>
+	<string name="lock_clock_title">시계 위젯</string>
+    <string name="lock_clock_summary">기본 잠금 및 홈 화면의 위젯을 사용자 지정</string>
+    <string name="power_notifications_category_title">충전음</string>
     <string name="power_notifications_enable_title">사용</string>
     <string name="power_notifications_enable_summary">충전기를 연결하거나 분리할때 소리 재생</string>
     <string name="power_notifications_vibrate_title">진동</string>
@@ -551,6 +562,36 @@
     <string name="icon_picker_search">검색</string>
     <string name="icon_picker_sms">메시지</string>
     <string name="icon_picker_twitter">트위터</string>
+    <string name="navigation_bar_category">네비게이션 바</string>
+    <string name="navigation_bar_title">버튼 및 레이아웃</string>
+    <string name="navigation_bar_help_text">"1 - 편집 시작하려면 자물쇠 아이콘을 누르세요
+2 - 기능을 할당하거나 변경하려면 해당 버튼을 누르세요
+3 - 순서를 다시 정렬하려면 해당 버튼을 길게 누르세요
+4 - 저장하려면 다시 자물쇠 아이콘을 누르세요
+5 - 시스템 기본값을 복원하려면 초기화 버튼을 누르세요"</string>
+    <string name="navigation_bar_tips">"• 작업은 한 번에 하나의 버튼에 할당할수 있습니다
+• 홈 버튼은 재 할당할수 없습니다
+• 사이드 버튼은 재 배열할수 없습니다"</string>
+    <string name="navigation_bar_tips_title">빠른 팁</string>
+    <string name="navigation_bar_reset_message">현재 설정을 삭제하고 기본값으로 복원하시겠습니까?</string>
+    <string name="navigation_bar_save_message">내비게이션 바 설정이 저장되었습니다</string>
+    <string name="navigation_bar_reset_toast">내비게이션 바가 기본값으로 초기회되었습니다</string>
+    <string name="navigation_bar_menu_editable">편집 가능</string>
+    <string name="navigation_bar_menu_locked">고정</string>
+    <string name="navigation_ring_title">빠른 실행 바로 가기</string>
+    <string name="navring_target_reset_message">모든 사용자 내비게이션 바 바로가기를 삭제하고 기본값으로 복원하시겠습니까?</string>
+    <string name="navring_target_reset">네비게이션 바 바로가기 기본값 초기화</string>
+    <string name="navring_action_open_ime_switcher">입력기 선택 열기</string>
+    <string name="navring_action_kill_app">앱 종료</string>
+    <string name="navring_action_none">없음</string>
+    <string name="navring_action_take_screenshot">스크린샷 찍기</string>
+    <string name="navring_action_ring_vibrate">벨/진동</string>
+    <string name="navring_action_ring_silent">벨/무음</string>
+    <string name="navring_action_ring_vibrate_silent">벨/진동/무음</string>
+    <string name="navring_action_screen_off">화면 끄기</string>
+    <string name="navring_action_torch">손전등</string>
+    <string name="navring_action_google_now">구글나우(Google Now)</string>
+    <string name="navring_choose_action_title">동작 선택</string>
     <string name="power_menu_title">전원 메뉴</string>
     <string name="power_menu_reboot_title">재부팅 메뉴</string>
     <string name="power_menu_screenshot_title">스크린샷</string>
@@ -596,6 +637,10 @@
     <string name="volume_wake_summary">위/아래 볼륨 버튼을 눌러 화면 켜기</string>
     <string name="volbtn_music_controls_title">볼륨 버튼 음악 컨트롤</string>
     <string name="volbtn_music_controls_summary">화면이 꺼져있을 때 볼륨 버튼을 길게 눌러 음악 트랙 탐색</string>
+	<string name="volbtn_cursor_control_title">키보드 커서 컨트롤</string>
+    <string name="volbtn_cursor_control_off">사용 안함</string>
+    <string name="volbtn_cursor_control_on">볼륨 버튼 위/아래로 커서 왼쪽/오른쪽 이동</string>
+    <string name="volbtn_cursor_control_on_reverse">볼륨 버튼 위/아래로 커서 오른쪽/왼쪽 이동</string>
     <string name="swap_volume_buttons_title">볼륨 버튼을 교환</string>
     <string name="swap_volume_buttons_summary">화면이 90도 또는 180도 회전할때 볼륨 버튼을 교환</string>
     <string name="button_backlight_title">백라이트</string>
@@ -608,37 +653,22 @@
     <string name="backlight_summary_disabled">사용 안함</string>
     <string name="backlight_summary_enabled_with_timeout">%s 사용함</string>
     <string name="backlight_summary_enabled">사용함</string>
-    <string name="navigation_bar_category">네비게이션 바</string>
-    <string name="navigation_bar_title">버튼 및 레이아웃</string>
-    <string name="navigation_bar_help_text">"1 - 편집 시작하려면 자물쇠 아이콘을 누르세요
-2 - 기능을 할당하거나 변경하려면 해당 버튼을 누르세요
-3 - 순서를 다시 정렬하려면 해당 버튼을 길게 누르세요
-4 - 저장하려면 다시 자물쇠 아이콘을 누르세요
-5 - 시스템 기본값을 복원하려면 초기화 버튼을 누르세요"</string>
-    <string name="navigation_bar_tips">"• 작업은 한 번에 하나의 버튼에 할당할수 있습니다
-• 홈 버튼은 재 할당할수 없습니다
-• 사이드 버튼은 재 배열할수 없습니다"</string>
-    <string name="navigation_bar_tips_title">빠른 팁</string>
-    <string name="navigation_bar_reset_message">현재 설정을 삭제하고 기본값으로 복원하시겠습니까?</string>
-    <string name="navigation_bar_save_message">내비게이션 바 설정이 저장되었습니다</string>
-    <string name="navigation_bar_reset_toast">내비게이션 바가 기본값으로 초기회되었습니다</string>
-    <string name="navigation_bar_menu_editable">편집 가능</string>
-    <string name="navigation_bar_menu_locked">고정</string>
-    <string name="navigation_ring_title">빠른 실행 바로 가기</string>
-    <string name="navring_target_reset_message">모든 사용자 내비게이션 바 바로가기를 삭제하고 기본값으로 복원하시겠습니까?</string>
-    <string name="navring_target_reset">네비게이션 바 바로가기 기본값 초기화</string>
-    <string name="navring_action_open_ime_switcher">입력기 선택 열기</string>
-    <string name="navring_action_kill_app">앱 종료</string>
-    <string name="navring_action_none">없음</string>
-    <string name="navring_action_take_screenshot">스크린샷 찍기</string>
-    <string name="navring_action_ring_vibrate">벨/진동</string>
-    <string name="navring_action_ring_silent">벨/무음</string>
-    <string name="navring_action_ring_vibrate_silent">벨/진동/무음</string>
-    <string name="navring_action_screen_off">화면 끄기</string>
-    <string name="navring_action_torch">손전등</string>
-    <string name="navring_action_google_now">구글나우(Google Now)</string>
-    <string name="navring_choose_action_title">동작 선택</string>
-	<string name="additional_system_update" />
+	<string name="confirm_delete_apn">APN이 삭제됩니다.</string>
+    <string name="status_bar_title">상태 바</string>
+    <string name="status_bar_battery_title">배터리 상태 표시</string>
+    <string name="status_bar_style_icon">아이콘</string>
+	<string name="status_bar_style_icon_percentage">아이콘 + 백분율</string>
+    <string name="status_bar_style_hidden">숨기기</string>
+    <string name="status_bar_battery_status_circle">원형</string>
+    <string name="status_bar_battery_status_circle_percentage">원과 백분율</string>
+    <string name="experimental_webview" />
+    <string name="experimental_webview_summary" />
+    <string name="development_shortcut_title">개발 바로 가기</string>
+    <string name="development_shortcut_summary">"'Wipe data' 활성화 및 알림 영역과 최근 사용 애플리케이션 목록 옵션 '강제로 닫기'"</string>
+    <string name="edge_gesture_service">가장자리 제스처 서비스 사용</string>
+    <string name="usb_mass_storage_title">대용량 저장 장치</string>
+    <string name="usb_mass_storage_summary">USB 대용량 저장 장치 사용</string>
+    <string name="additional_system_update" />
     <string name="additional_system_update_menu" />
     <string name="max_cpu_freq_file">/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq</string>
     <string name="min_cpu_freq_file">/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq</string>
@@ -1922,8 +1952,8 @@ PIN이 잘못된 것 같습니다."</string>
     <string name="accessibility_screen_magnification_summary">"이 기능을 사용하면 화면을 3번 탭하여 확대 및 축소할 수 있습니다.
 
 화면을 확대한 상태에서 다음 작업을 수행할 수 있습니다.
-"<ul><li>"이동: 화면에서 두 개 이상의 손가락을 드래그
-"<li>확대/축소 수준 조정: 두 개 이상의 손가락을 오므리거나 벌림</li></li></ul>"
+"<li><ul>"이동: 화면에서 두 개 이상의 손가락을 드래그
+"<li>확대/축소 수준 조정: 두 개 이상의 손가락을 오므리거나 벌림</li></ul></li>"
 
 또한 3번 탭한 상태를 유지하여 손가락 아래에 있는 항목을 일시적으로 확대할 수 있습니다. 확대한 상태에서 손가락을 드래그하여 화면의 다른 부분을 탐색할 수 있습니다. 손가락을 떼면 이전 상태로 돌아갑니다.
 
