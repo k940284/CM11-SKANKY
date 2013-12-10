@@ -92,9 +92,6 @@
     <string name="send_delay_10seconds">10초</string>
     <string name="send_delay_20seconds">20초</string>
     <string name="send_delay_30seconds">30초</string>
-    <string name="send_delay_45seconds">45초</string>
-    <string name="send_delay_60seconds">60초</string>
-    <string name="send_delay_90seconds">90초</string>
     <string name="sent_countdown">메시지 전송 카운트 다운</string>
     <string name="pref_compose_edit_lines">SMS 편집 최대 라인</string>
     <string name="pref_compose_edit_lines_summary">SMS를 편집할때 라인의 최대 수</string>
