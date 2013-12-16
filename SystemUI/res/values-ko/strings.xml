@@ -4,8 +4,8 @@
     <string name="accessibility_data_connection_DC">DCHSPAP</string>
     <string name="accessibility_quick_settings_ringer">소리 %s.</string>
     <string name="accessibility_quick_settings_vibration">진동 %s.</string>
-    <string name="bean_dream_settings_cid_title">"Cid's head 사용"</string>
-    <string name="bean_dream_settings_cid_summary">"Cid's head를 사용"</string>
+    <string name="dessert_case_settings_cm_title">"CM 마스코트 표시"</string>
+    <string name="dessert_case_settings_cm_summary">"안드로이드 디저트와 CM 마스코트를 표시"</string>
     <string name="quick_settings_profile_label">프로필</string>
     <string name="powerwidget_screen_timeout_toast">화면 시간 제한 설정: %1$d %2$s</string>
     <string name="quick_settings_gps">GPS</string>
@@ -63,6 +63,9 @@
     <string name="pie_phone_status_emergency_only">긴급 통화 전용</string>
     <string name="advanced_dev_option_wipe_app">앱 데이터 지우기</string>
     <string name="advanced_dev_option_force_stop">강제 중지</string>
+	<string name="accessibility_dock_battery_level">독 배터리 %d 퍼센트.</string>
+    <string name="accessibility_battery_level">배터리 %d 퍼센트.</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
     <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
     <string name="system_ui_date_pattern">MMMMd</string>
     <string name="system_ui_weekday_pattern">eeee</string>
@@ -178,7 +181,6 @@
     <string name="accessibility_no_sim">SIM이 없습니다.</string>
     <string name="accessibility_bluetooth_tether">블루투스 테더링입니다.</string>
     <string name="accessibility_airplane_mode">비행기 모드입니다.</string>
-    <string name="accessibility_battery_level">배터리 %d퍼센트</string>
     <string name="accessibility_settings_button">시스템 설정</string>
     <string name="accessibility_notifications_button">알림</string>
     <string name="accessibility_remove_notification">알림 지우기</string>
@@ -244,6 +246,5 @@
 	<string name="quick_settings_remote_display_no_connection_label">캐스트 화면</string>
     <string name="quick_settings_brightness_dialog_title">밝기</string>
     <string name="quick_settings_brightness_dialog_auto_brightness_label">자동</string>
-    <string name="battery_meter_very_low_overlay_symbol">!</string>
     <string name="ssl_ca_cert_warning">"네트워크가 모니터링될 수 있음"</string>
 </resources>

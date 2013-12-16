@@ -472,4 +472,18 @@
         <item>100</item>
         <item>200</item>
     </string-array>
+    <string-array name="data_usage_cycle_length">
+        <item>매일</item>
+        <item>매주</item>
+        <item>매달</item>
+    </string-array>
+    <string-array name="data_usage_cycle_weekdays">
+        <item>일요일</item>
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목요일</item>
+        <item>금요일</item>
+        <item>토요일</item>
+    </string-array>
 </resources>
