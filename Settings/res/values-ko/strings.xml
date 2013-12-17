@@ -484,6 +484,7 @@
     <string name="privacy_guard_manager_show_system_apps">내장 된 앱을 표시</string>
     <string name="privacy_guard_manager_filter_permissions">권한 필터</string>
     <string name="privacy_guard_advanced_settings_title">고급</string>
+	<string name="privacy_guard_notification_title">알림 표시</string>
     <string name="blacklist_title">차단 목록</string>
     <string name="blacklist_edit_dialog_title">차단 목록 항목 편집</string>
     <string name="blacklist_prefs">설정</string>
@@ -683,16 +684,13 @@
     <string name="status_bar_title">상태 바</string>
     <string name="status_bar_show_clock_title">시계 표시</string>
     <string name="status_bar_battery_title">배터리 상태 표시</string>
-	<string name="status_bar_signal_text_title">신호 상태 표시</string>
-    <string name="status_bar_style_icon">아이콘</string>
 	<string name="status_bar_style_icon_portrait">아이콘 세로방향</string>
     <string name="status_bar_style_icon_landscape">아이콘 가로방향</string>
 	<string name="status_bar_style_circle">원형</string>
     <string name="status_bar_style_hidden">숨기기</string>
     <string name="status_bar_battery_show_percent_title">배터리 상태 퍼센트 표시</string>
+	<string name="status_bar_signal_text_title">신호 상태 표시</string>
 	<string name="status_bar_signal_text_show_text">텍스트</string>
-    <string name="status_bar_battery_status_circle">원형</string>
-    <string name="status_bar_battery_status_circle_percentage">원과 백분율</string>
 	<string name="status_bar_toggle_brightness">밝기 컨트롤</string>
     <string name="status_bar_toggle_brightness_summary">상태바를 슬라이드하여 밝기를 조정</string>
     <string name="status_bar_toggle_info">자동 밝기 사용함</string>
